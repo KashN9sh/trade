@@ -12,6 +12,10 @@ from oandapyV20.contrib.requests import MarketOrderRequest
 from oandapyV20.contrib.requests import TakeProfitDetails, StopLossDetails
 import oandapyV20.endpoints.orders as orders
 import oandapyV20
+from oandapyV20 import API
+import oandapyV20.endpoints.orders as orders
+from oandapyV20.contrib.requests import MarketOrderRequest
+from oandapyV20.exceptions import V20Error
 
 accountID='101-004-9331170-001'
 access_token='acbe0945e42a797eef080ea2e4f46d88-b32a040ee9d6394604d7661a406b91f7'
